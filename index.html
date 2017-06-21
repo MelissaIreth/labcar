@@ -5,6 +5,7 @@
 	<title>Lab Car</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="https://use.fontawesome.com/d2c9b2c5c1.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
@@ -71,12 +72,12 @@
 						<h1>TARIFAS</h1>
 						<p>Consulta las tarifas LabCar aquí</p>
 						<form>
-						<i class="fa fa-circle" aria-hidden="true"></i><input type="text" name="usuario3" placeholder="Ingrese su punto de partida">
-						<i class="fa fa-arrow-right" aria-hidden="true"></i><input type="text" name="usuario4" placeholder="Ingrese un destino">
-						<button class="btn">¡TRAZAR RUTA!</button>
+						<i class="fa fa-circle" aria-hidden="true"></i><input type="text" id="origen" name="origen" placeholder="Ingrese su punto de partida">
+						<i class="fa fa-arrow-right" aria-hidden="true"></i><input type="text" id="destino" name="destino" placeholder="Ingrese un destino">
+						<button class="btn" id="encuentrame">¡TRAZAR RUTA!</button>
 						</form>
 					</div>
-					<div class="col-md-6">
+					<div class="col-md-6 hidden-xs">
 						<div id="map"></div>						
 					</div>
 				</div>
@@ -96,7 +97,7 @@
 					<a href="#"><i class="fa fa-play" aria-hidden="true"></i></a>
 				</div>
 			</div>	
-				<div class="col-md-3 col-lg-3">
+				<div class="col-md-3 col-lg-3 col-xs-6">
 					<ul>
 						<li><a href="#">Viaja</a></li>
 						<li><a href="#">Conduce</a></li>
@@ -108,7 +109,7 @@
 						<li><a href="#">Seguridad</a></li>
 					</ul>
 				</div>			
-				<div class="col-md-3 col-lg-3">
+				<div class="col-md-3 col-lg-3 hidden-xs">
 					<ul>
 						<li><a href="#">Oportunidades</a></li>
 						<li><a href="#">Nuestra historia</a></li>
@@ -121,7 +122,7 @@
 					</ul>
 				</div>
 			<div class="row">
-				<div class="col-md-3 col-lg-3">
+				<div class="col-md-3 col-lg-3 col-xs-6">
 					<ul>
 						<li><a href="#"><img src="img/app-store.png"></a></li>
 						<li><a href="#"><img src="img/google-play.png"></a></li>
@@ -134,14 +135,10 @@
 		
 	</footer>
 
-
-
-
-
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC8NJ27kOEU4bvrn1_cn814Xrrn_Rxn_fw&libraries=places&callback=initMap"
   type="text/javascript"></script>
-  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
