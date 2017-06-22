@@ -57,10 +57,10 @@
 
 #portada{
   background-image: url(../img/taxi.jpg);
-  background-position: bottom;;
+  background-position: center bottom;
   height: 113vh;
   width: auto;
-  background-size: 1300px;
+  background-size: cover;
 }
 
 .cajauno{
@@ -106,7 +106,7 @@
   margin-top: -100px;
   background-color: #f7b617;
   color: whitesmoke;
-  height: 550px;
+  height: auto;
   padding: 50px;
 }
 
@@ -158,8 +158,28 @@
   height: auto;
   width: auto;
 }
+.tarifas{
+  display: table-caption;
+}
+.tarifas input{
+  background-color: #f7b617;
+  display: inline-block;
+  border: 1px solid whitesmoke;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 25px;
+  width: 255px;
+  font-size: 1.5em;
+  color: whitesmoke;
+}
 input{
   color: #2b2b2b;
+}
+.tarifas button{
+  color: #2b2b2b;
+  margin-top: 20px;
+  font-weight: bolder;
+  padding: 10px 17px;
 }
 #map{
   width: 80%;
@@ -234,10 +254,19 @@ li a img{
     .links li{
       padding-top: 10px;
     }
+    .tarifas{
+      text-align: center;
+    }
+    .cajados{
+      margin-top: 0;
+    }
 }
 
 @media (min-width: 767px){
   .texto2{
+    display: none;
+  }
+  .nuevapp, .llegadestino{
     display: none;
   }
 }
