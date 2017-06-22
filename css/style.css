@@ -41,11 +41,14 @@
 }
 
 /*MIS ESTILOS*/
+*{
+  font-family: 'Montserrat', sans-serif;
+}
 .navbar{
   margin-bottom: 0;
 }
 .navbar-toggle{
-  
+  float: left;
 }
 .navbar-default{
   border: 0;
@@ -65,7 +68,7 @@
   background-color: #f7b617;
   color: whitesmoke;
   height: 350px;
-  padding: 50px;
+  padding: 40px;
 }
 
 .cajauno h1{
@@ -82,9 +85,22 @@
   margin-left: 20px;
   width: 25%;
 }
+
+.texto2 button{
+  margin-top: 50px;
+  font-size: 2em;
+}
+.texto2 h1{
+  font-size: 3em;
+  font-weight: bolder;
+}
 .cajauno button{
   color: black;
   font-weight: bolder
+}
+.cajauno button:hover{
+  color: #f7b617;
+  background-color: whitesmoke;
 }
 .cajados{
   margin-top: -100px;
@@ -157,13 +173,37 @@ input{
   padding: 50px;
   height: auto;
 }
+
+.hr2{
+  border-bottom: 1px solid whitesmoke;
+  border-top: 1px solid whitesmoke;
+}
 #rrss.row{
   position: relative;
+}
+#rrss a:hover{
+  color: #f7b617;
+}
+#rrss a i:hover{
+  color: #f7b617;
 }
 #rrss.bottom-align-text{
   position: absolute;
   bottom: 0;
   right: 0;
+}
+.logob{
+  padding-bottom: 20px;
+}
+.links li{
+  padding-top: 15px;
+}
+.ftlap{
+  margin-top: 255px;
+}
+
+.app{
+  margin-top: 150px;
 }
 ul li{
   list-style: none;
@@ -178,8 +218,26 @@ a i{
 }
 
 li a img{
+  width: 140px;
+  height: 50px;
+  margin: 10px;
 }
 
 @media (max-width: 766px){
+    .ftlap{
+      margin-top: 30px;
+      margin-left: 300px;
+    }
+    .app{
+      margin-top: 70px;
+    }
+    .links li{
+      padding-top: 10px;
+    }
+}
 
+@media (min-width: 767px){
+  .texto2{
+    display: none;
+  }
 }
