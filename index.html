@@ -8,7 +8,7 @@
 	<script src="https://use.fontawesome.com/d2c9b2c5c1.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-<body>
+<body id="back">
 	<nav class="navbar navbar-default">
   		<div class="container-fluid">
     		<div class="navbar-header">
@@ -22,9 +22,9 @@
     	</div>
     	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	      <ul class="nav navbar-nav navbar-right">
-	        <li><a href="#">Viaja</a></li>
-	        <li><a href="#">Conduce</a></li>
-	        <li><a href="#">Inicia Sesion</a></li>
+	        <li><a href="#viaja">Viaja</a></li>
+	        <li><a href="#drive">Conduce</a></li>
+	        <li><a href="#sesion">Inicia Sesion</a></li>
 	      </ul>
     	</div><!-- /.navbar-collapse -->
   	</div><!-- /.container-fluid -->
@@ -35,61 +35,68 @@
 					<div class="col-md-5 col-xs-10 pull-right cajauno">
 						<h1>Disfruta del viaje</h1>
 						<h1>Eres dueño de tu tiempo</h1>
-						<h5>Viaja con <img src="img/logo-blanco.png"></h5>
-						<p>REGISTRATE</p>
+						<h3>Viaja con  <img src="img/logo-blanco.png"></h3>
+						<p>REGÍSTRATE</p>
 						<input type="text" name="usuario">
-						<span>O BIEN</span>
+						<span>O Bien</span>
 						<input type="text" name="usuario2">
-						<button class="btn">Conviértete en conductor</button>
+						<button class="btn">Conviértete en un conductor</button>
 					</div>
-					<div class="row cajados">
-						<div class="margen">
-							<div class="col-md-5">
-								<img src="img/celular.png">		
-							</div>
-							<div class="col-md-4 hidden-xs">
-							<h3>Descarga la nueva app</h3>
-								<p>a versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.</p>
-								<p>La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.</p>
-							</div>
-						</div>
-					</div>	
+						
 			</div>
 		</div>
+	</section>
+	<section id="viaja">
+	<div class="container-fluid">
+		<div class="row cajados">
+			<div class="margen">
+				<div class="col-md-5">
+					<img src="img/celular.png">		
+				</div>
+				<div class="col-md-4 hidden-xs">
+					<h2>Descarga la nueva app</h2>
+					<p>La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.</p>
+					<p>La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.</p>
+				</div>
+			</div>
+		</div>
+	</div>
 	</section>
 	<section id="drive">
 		<div class="container-full">
 			<div class="col-md-12">
 				<div class="row">
-					<div class="col-md-5 col-xs-10 pull-right cajatres">
+					<div class="col-md-5 col-xs-12 pull-right cajatres">
 						<h1>Conduce cuando quieras</h1>
 						<p>LabCar es una opción flexible para alcanzar tus metas financieras.</p>
 						<button class="btn">Conviértete en conductor</button>
 					</div>
 				</div>
-				<div class="row cajacuatro">
-					<div class="col-md-6">
-						<h1>TARIFAS</h1>
-						<p>Consulta las tarifas LabCar aquí</p>
-						<form>
-						<i class="fa fa-circle" aria-hidden="true"></i><input type="text" id="origen" name="origen" placeholder="Ingrese su punto de partida">
-						<i class="fa fa-arrow-right" aria-hidden="true"></i><input type="text" id="destino" name="destino" placeholder="Ingrese un destino">
-						<button class="btn" id="encuentrame">¡TRAZAR RUTA!</button>
-						</form>
-					</div>
-					<div class="col-md-6 hidden-xs">
-						<div id="map"></div>						
-					</div>
-				</div>
 			</div>
 		</div>
 	</section>
+	<section id="sesion">
+	<div class="row cajacuatro">
+		<div class="col-md-6">
+				<h1>TARIFAS</h1>
+				<p>Consulta las tarifas LabCar aquí</p>
+				<form>
+					<i class="fa fa-circle" aria-hidden="true"></i><input type="text" id="origen" name="origen" placeholder="Ingrese su punto de partida">
+					<i class="fa fa-arrow-right" aria-hidden="true"></i><input type="text" id="destino" name="destino" placeholder="Ingrese un destino">
+					<button class="btn" id="encuentrame">¡TRAZAR RUTA!</button>
+				</form>
+		</div>
+			<div class="col-md-6 hidden-xs">
+				<div id="map"></div>						
+			</div>
+	</div>
+	</section>
 	<footer id="rrss">
 		<div class="container-full">
-			<img src="img/logo-blanco.png">
+			<a href="#back"><img src="img/logo-blanco.png"></a>
 			<hr>
 			<div class="row">
-				<div class="col-md-3 col-lg-3">
+				<div class="col-md-3 col-lg-3 bottom-align-text">
 					<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 					<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 					<a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
