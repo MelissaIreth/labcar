@@ -55,6 +55,7 @@
   padding: 20px;
 }
 
+
 #portada{
   background-image: url(../img/taxi.jpg);
   background-position: center bottom;
@@ -62,7 +63,6 @@
   width: auto;
   background-size: cover;
 }
-
 .cajauno{
   margin-top: 100px;
   background-color: #f7b617;
@@ -70,12 +70,10 @@
   height: 350px;
   padding: 40px;
 }
-
 .cajauno h1{
   margin-top: 0;
   margin-bottom: 0;
 }
-
 .cajauno input{
   border: 0;
   border-bottom: 1px solid whitesmoke;
@@ -85,7 +83,6 @@
   margin-left: 20px;
   width: 25%;
 }
-
 .texto2 button{
   margin-top: 50px;
   font-size: 2em;
@@ -102,6 +99,8 @@
   color: #f7b617;
   background-color: whitesmoke;
 }
+
+
 .cajados{
   margin-top: -100px;
   background-color: #f7b617;
@@ -109,11 +108,11 @@
   height: auto;
   padding: 50px;
 }
-
 .margen{
   border: 1px solid white;
   border-bottom: 1px solid white;
 }
+
 
 #drive{
   background-image: url(../img/conduce.jpg);
@@ -123,23 +122,19 @@
   background-size: 1300px;
   background-repeat: no-repeat;
 }
-
 .cajatres{
   padding: 50px;
   background-color: rgba(51,51,51,0.3);
   color: whitesmoke;
   height: auto
 }
-
 .cajatres h1{
   font-weight: bolder;
   font-size: 2em;
 }
-
 .cajatres p{
   font-size: 25px;
 }
-
 .cajatres button{
   background-color: #f7b617;
   font-size: 1.5em;
@@ -147,6 +142,8 @@
   margin-top: 20px;
   padding: 10px;
 }
+
+
 .row.cajacuatro{
   margin-right: 0;
 }
@@ -181,6 +178,8 @@ input{
   font-weight: bolder;
   padding: 10px 17px;
 }
+
+
 #map{
   width: 80%;
   height: 50vh;
@@ -193,13 +192,12 @@ input{
   padding: 50px;
   height: auto;
 }
-
+#rrss.row{
+  position: relative;
+}
 .hr2{
   border-bottom: 1px solid whitesmoke;
   border-top: 1px solid whitesmoke;
-}
-#rrss.row{
-  position: relative;
 }
 #rrss a:hover{
   color: #f7b617;
@@ -221,7 +219,6 @@ input{
 .ftlap{
   margin-top: 255px;
 }
-
 .app{
   margin-top: 150px;
 }
@@ -236,17 +233,18 @@ a i{
   margin-right: 10px;
   color: whitesmoke;
 }
-
 li a img{
-  width: 140px;
+  width: 150px;
   height: 50px;
   margin: 10px;
 }
 
+
+
 @media (max-width: 766px){
     .ftlap{
       margin-top: 30px;
-      margin-left: 300px;
+      margin-left: 230px;
     }
     .app{
       margin-top: 70px;
@@ -259,6 +257,14 @@ li a img{
     }
     .cajados{
       margin-top: 0;
+    }
+    .llegadestino{
+      font-size: 20px;
+    }
+    li a img{
+      width: 130px;
+      height: 45px;
+
     }
 }
 

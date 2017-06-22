@@ -33,23 +33,22 @@
 	<section id="portada">
 		<div class="container-full">
 			<div class="col-md-12 col-xs-12">		
-					<div class="col-md-5 col-xs-10 pull-right cajauno">
-						<div class="texto hidden-xs">
-							<h1>Disfruta del viaje</h1>
-							<h1>Eres dueño de tu tiempo</h1>
-							<h3>Viaja con  <img src="img/logo-blanco.png"></h3>
-							<p>REGÍSTRATE</p>
-							<input type="text" name="usuario">
-							<span>O Bien</span>
-							<input type="text" name="usuario2">
-							<button class="btn">Conviértete en un conductor</button>
-						</div>
-						<div class="texto2">
-							<h1>Comienza a viajar con <img src="img/logo-blanco.png"></h1>
-							<button class="btn">Descarga el app</button>
-						</div>
+				<div class="col-md-5 col-xs-10 pull-right cajauno">
+					<div class="texto hidden-xs">
+						<h1>Disfruta del viaje</h1>
+						<h1>Eres dueño de tu tiempo</h1>
+						<h3>Viaja con  <img src="img/logo-blanco.png"></h3>
+						<p>REGÍSTRATE</p>
+						<input type="text" name="usuario">
+						<span>O Bien</span>
+						<input type="text" name="usuario2">
+						<button class="btn">Conviértete en un conductor</button>
 					</div>
-						
+					<div class="texto2">
+						<h1>Comienza a viajar con <img src="img/logo-blanco.png"></h1>
+						<button class="btn">Descarga el app</button>
+					</div>
+				</div>						
 			</div>
 		</div>
 	</section>
@@ -67,7 +66,7 @@
 					<p>Con solo tocar un botón, un auto llega justo a tu ubicación. Súbete y no te preocupes: tu conductor sabe exactamente dónde ir.</p>
 				</div>
 			</div>
-			<h2 class="llegadestino">Llega a tu destino aún más rápido</h2>
+			<h4 class="llegadestino">Llega a tu destino aún más rápido</h4>
 		</div>
 	</div>
 	</section>
@@ -85,20 +84,20 @@
 		</div>
 	</section>
 	<section id="sesion">
-	<div class="row cajacuatro">
-		<div class="col-md-6">
-				<h1>Tarifas</h1>
-				<p>Consulta las tarifas LabCar aquí</p>
-				<div class="tarifas">
-					<i class="fa fa-circle" aria-hidden="true"><input type="text" id="origen" name="origen" placeholder="Ingrese su punto de partida"></i>
-					<i class="fa fa-arrow-right" aria-hidden="true"><input type="text" id="destino" name="destino" placeholder="Ingrese un destino"></i>
-					<button class="btn" id="encuentrame">¡TRAZAR RUTA!</button>
-				</div class="tarifas">
+		<div class="row cajacuatro">
+			<div class="col-md-6">
+					<h1>Tarifas</h1>
+					<p>Consulta las tarifas LabCar aquí</p>
+					<div class="tarifas">
+						<i class="fa fa-circle" aria-hidden="true"><input type="text" id="origen" name="origen" placeholder="Ingrese su punto de partida"></i>
+						<i class="fa fa-arrow-right" aria-hidden="true"><input type="text" id="destino" name="destino" placeholder="Ingrese un destino"></i>
+						<button class="btn" id="encuentrame">¡TRAZAR RUTA!</button>
+					</div class="tarifas">
+			</div>
+			<div class="col-md-6 hidden-xs">
+				<div id="map"></div>						
+			</div>
 		</div>
-		<div class="col-md-6 hidden-xs">
-			<div id="map"></div>						
-		</div>
-	</div>
 	</section>
 	<footer id="rrss">
 	  <a href="#back"><img src="img/logo-blanco.png" class="logob"></a>
@@ -111,7 +110,6 @@
 					<a href="#"><i class="fa fa-apple" aria-hidden="true"></i></a>
 					<a href="#"><i class="fa fa-play" aria-hidden="true"></i></a>
 				</div>
-				
 				<div class="col-md-3 col-lg-3 col-xs-6 links">
 					<ul>
 						<li><a href="#">Viaja</a></li>
@@ -148,7 +146,6 @@
 			<p class="text-center">© 2017 LabCar technologies Inc.</p>
 		</div>	
 	</footer>
-
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC8NJ27kOEU4bvrn1_cn814Xrrn_Rxn_fw&libraries=places&callback=initMap"
   type="text/javascript"></script>

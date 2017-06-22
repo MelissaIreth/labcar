@@ -33,8 +33,6 @@ function initMap(){
 		alert("Tenemos un problema con encontrar tu ubicación")
 	}
 
-
-
 function initialize() {
 
 var input = document.getElementById('origen');
